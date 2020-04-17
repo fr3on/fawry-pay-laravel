@@ -9,9 +9,9 @@ Fawry pay payment gateway is a powerful payment processor that helps you pay thr
 $ composer require fr3on/fawry-pay
 ```
 
-2) Publish the config file & run the migrations 
+2) Publish the config file 
 
 ```bash
-php artisan vendor:publish --provider="Fr3on\LaravelFawryPay\LaravelFawryPayServiceProvider"
+php artisan vendor:publish --provider="Fr3on\FawryPay\FawryPayServiceProvider"
 php artisan migrate
 ```
